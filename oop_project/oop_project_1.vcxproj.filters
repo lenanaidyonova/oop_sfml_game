@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Background">
+      <UniqueIdentifier>{78580b8b-ca86-4256-90d5-d1340749a118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Drawers">
+      <UniqueIdentifier>{ee7a29b7-504e-4e93-a5e4-bcd16b3ca3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Event">
+      <UniqueIdentifier>{f808bb85-86df-478f-8379-0edd49c50f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Characters">
+      <UniqueIdentifier>{cd951d8a-9d14-42dc-8ecd-ee0b98592210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Game">
+      <UniqueIdentifier>{2b23aeec-88a8-4137-ba12-3f8c40ab3e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Control">
+      <UniqueIdentifier>{e58887e0-c2b4-4548-9318-7c0f12c9e45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Event\EventPlayer">
+      <UniqueIdentifier>{3818bfa4-0c83-4365-ba78-d367011eabda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Window">
+      <UniqueIdentifier>{ef46df84-d635-4bf1-85fe-f08ba9d7461b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Event\EventCell">
+      <UniqueIdentifier>{503fb241-8772-4602-8cae-38a82ecd3651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Event Manager">
+      <UniqueIdentifier>{6033f4ac-c6b2-465d-bea2-6c80e49caa58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Message">
+      <UniqueIdentifier>{44ea1ba0-0229-48bc-9e13-97c8a0006f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Logger">
+      <UniqueIdentifier>{48de6756-8c27-4d91-890d-eaa5fcc4aa2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Log">
+      <UniqueIdentifier>{c36193e8-d623-4b45-81ee-c376f38024e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Rules">
+      <UniqueIdentifier>{bf62dfd8-e6da-4f0c-b675-5d12d359c7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Level">
+      <UniqueIdentifier>{b3c9fbac-ec6a-4805-bda8-8492901fda8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cell.cpp">
+      <Filter>Исходные файлы\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>Исходные файлы\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_field.cpp">
+      <Filter>Исходные файлы\Drawers</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_player.cpp">
+      <Filter>Исходные файлы\Drawers</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="creator.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Исходные файлы\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="source.cpp">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="event_manager.cpp">
+      <Filter>Исходные файлы\Event Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Berry.cpp">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>Исходные файлы\Event\EventCell</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="scoreboard.cpp">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyApearance.cpp">
+      <Filter>Исходные файлы\Event\EventCell</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldBuilder.cpp">
+      <Filter>Исходные файлы\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="console_logger.cpp">
+      <Filter>Исходные файлы\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="file_logger.cpp">
+      <Filter>Исходные файлы\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="error_log.cpp">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="game_log.cpp">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="logger_pool.cpp">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="play_log.cpp">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="game_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="play_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="error_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="berry_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="mushroom_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="key_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="empty_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="start_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="end_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="small_field_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="impassible_message.cpp">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="logType.cpp">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Исходные файлы\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="control_scan.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="control_gui.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="command_processing.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="window_command.cpp">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="spawn_berry_event.h">
+      <Filter>Исходные файлы\Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="first_level.cpp">
+      <Filter>Исходные файлы\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="second_level.cpp">
+      <Filter>Исходные файлы\Level</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cell.h">
+      <Filter>Исходные файлы\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>Исходные файлы\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_field.h">
+      <Filter>Исходные файлы\Drawers</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_player.h">
+      <Filter>Исходные файлы\Drawers</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Исходные файлы\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="creator.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Исходные файлы\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Исходные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="event_manager.h">
+      <Filter>Исходные файлы\Event Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Berry.h">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>Исходные файлы\Event\EventCell</Filter>
+    </ClInclude>
+    <ClInclude Include="event_cell.h">
+      <Filter>Исходные файлы\Event\EventCell</Filter>
+    </ClInclude>
+    <ClInclude Include="event_player.h">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="scoreboard.h">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyApearance.h">
+      <Filter>Исходные файлы\Event\EventCell</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>Исходные файлы\Event\EventPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldBuilder.h">
+      <Filter>Исходные файлы\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="console_logger.h">
+      <Filter>Исходные файлы\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="file_logger.h">
+      <Filter>Исходные файлы\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Исходные файлы\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="error_log.h">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="game_log.h">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="logger_pool.h">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="logType.h">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="play_log.h">
+      <Filter>Исходные файлы\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="game_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="play_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="error_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="berry_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="mushroom_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="key_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="empty_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="start_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="end_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="small_field_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="impassible_message.h">
+      <Filter>Исходные файлы\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Исходные файлы\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="control_scan.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="control_gui.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="command_processing.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="window_command.h">
+      <Filter>Исходные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldGenerator.h">
+      <Filter>Исходные файлы\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="spawn_player.h">
+      <Filter>Исходные файлы\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="field_size.h">
+      <Filter>Исходные файлы\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="spawn_key.h">
+      <Filter>Исходные файлы\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="spawn_impas.h">
+      <Filter>Исходные файлы\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Исходные файлы\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="second_level.h">
+      <Filter>Исходные файлы\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="first_level.h">
+      <Filter>Исходные файлы\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="spawn_mushroom_event.h">
+      <Filter>Исходные файлы\Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="spawn_impas_second.h">
+      <Filter>Исходные файлы\Rules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\Документы\Sprout Lands - Sprites - Basic pack\Objects\Basic Grass.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Grass.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="menu.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="l_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="10.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="20.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="30.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="field.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="rpg_icons_v1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Chests.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Chest.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="both.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="consol.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="error log.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="file.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="game log.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="play log.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="next.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="down.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="gui.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="left.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="right.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="up.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="down_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="up_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="right_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="left_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="u_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="d_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="r_sprite.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="first.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="level.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="second.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Athelas-Regular.ttf">
+      <Filter>Файлы ресурсов</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fileLogger.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="controllKeys.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="default.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
